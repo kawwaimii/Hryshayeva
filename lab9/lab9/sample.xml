@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store>
+  <products>
+    <product id="101">
+      <name>Ноутбук ASUS ZenBook</name>
+      <category>Электроника</category>
+      <price currency="USD">1299.99</price>
+      <stock>25</stock>
+      <description>Мощный ультрабук с процессором Intel Core i7 и SSD 512GB.</description>
+      <manufacturer>ASUS</manufacturer>
+      <reviews>
+        <review>
+          <user>Иван</user>
+          <rating>5</rating>
+          <comment>Отличный ноутбук, работает быстро!</comment>
+        </review>
+        <review>
+          <user>Мария</user>
+          <rating>4</rating>
+          <comment>Хороший экран, но хотелось бы больше портов.</comment>
+        </review>
+      </reviews>
+    </product>
+    <product id="102">
+      <name>Смартфон Samsung Galaxy S24</name>
+      <category>Электроника</category>
+      <price currency="USD">999.99</price>
+      <stock>50</stock>
+      <description>Флагманский смартфон с AMOLED-экраном и камерой 108MP.</description>
+      <manufacturer>Samsung</manufacturer>
+      <reviews>
+        <review>
+          <user>Алексей</user>
+          <rating>5</rating>
+          <comment>Камера просто супер, фото выглядят профессионально!</comment>
+        </review>
+      </reviews>
+    </product>
+    <product id="103">
+      <name>Книга "Гарри Поттер и философский камень"</name>
+      <category>Книги</category>
+      <price currency="USD">19.99</price>
+      <stock>100</stock>
+      <description>Первая книга из серии о Гарри Поттере, написанная Дж. К. Роулинг.</description>
+      <manufacturer>Bloomsbury</manufacturer>
+    </product>
+  </products>
+  <orders>
+    <order id="5001">
+      <customer>
+        <name>Сергей Иванов</name>
+        <email>sergey@example.com</email>
+      </customer>
+      <items>
+        <item product_id="101" quantity="1"/>
+        <item product_id="103" quantity="2"/>
+      </items>
+      <total currency="USD">1339.97</total>
+      <status>Отправлен</status>
+    </order>
+    <order id="5002">
+      <customer>
+        <name>Анна Смирнова</name>
+        <email>anna@example.com</email>
+      </customer>
+      <items>
+        <item product_id="102" quantity="1"/>
+      </items>
+      <total currency="USD">999.99</total>
+      <status>В обработке</status>
+    </order>
+  </orders>
+</store>

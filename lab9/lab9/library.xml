@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book id="1">
+        <title>Горе от ума</title>
+        <author>Александр Сергеевич Грибоедов</author>
+        <year>1825</year>
+        <genre>Драма</genre>
+        <price>18.99</price>
+    </book>
+    <book id="2">
+        <title>Убийство на улице Морг</title>
+        <author>Эдгар Аллан По</author>
+        <year>1841</year>
+        <genre>Детектив</genre>
+        <price>13.49</price>
+    </book>
+    <book id="3">
+        <title>Три поросёнка</title>
+        <author>Сергей Владимирович Михалков</author>
+        <year>1936</year>
+        <genre>Сказка</genre>
+        <price>11.99</price>
+    </book>
+</library>
